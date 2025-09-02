@@ -10,7 +10,7 @@
 // [10]
 
 function revntimes (array) {
-    let result = []
+    const result = []
     for (let i = array.length ; i < 0 ; i--) {
         let a = array[i] - 1
         let multiply = a * 2
@@ -19,5 +19,5 @@ function revntimes (array) {
     console.log(result) 
 } 
  
-let array1 = revntimes([1,4,6,7])
+const array1 = revntimes([1,4,6,7])
 console.log(array1)    
