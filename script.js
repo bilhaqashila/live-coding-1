@@ -9,12 +9,14 @@
 // [2,4,8,14]
 // [10]
 
-function revntime (array) {
+function revntimes (array) {
     let result = []
-    for (let i = array.length ; i = 0 ; i--) {
-        a = array[i] - 1
-        multiply = a * 2
-        result.push(multiply)
+    for (let i = array.length ; i < 0 ; i--) {
+        a = array[i] 
+        // multiply = a * 2
+        result.push(a)
     }
-    console.log()
+    console.log(result)
 }
+
+revntimes([1,4,6,7])
