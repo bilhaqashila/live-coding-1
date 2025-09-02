@@ -12,13 +12,12 @@
 function revntimes (array) {
     let result = []
     for (let i = array.length ; i < 0 ; i--) {
-        a = array[i] - 1
-        multiply = a * 2
-       
+        let a = array[i] - 1
+        let multiply = a * 2
+        result.push(multiply) 
     }
-    
     console.log(result) 
-}
-
+} 
+ 
 let array1 = revntimes([1,4,6,7])
 console.log(array1)    
